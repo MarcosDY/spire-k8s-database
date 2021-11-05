@@ -1,3 +1,3 @@
 # API
 
-REST API that uses certificates to authenticate agains a posgresql database
+REST API that uses certificates to authenticate against a postgresql database
