@@ -13,7 +13,7 @@ download-bin() {
 }
 
 download-kind() {
-    KINDVERSION=v0.11.1
+    KINDVERSION=v0.19.0
     KINDPATH=$(command -v kind || echo)
     UNAME=$(uname | awk '{print tolower($0)}')
     KINDURL="https://github.com/kubernetes-sigs/kind/releases/download/$KINDVERSION/kind-$UNAME-amd64"
@@ -28,7 +28,7 @@ download-kind() {
 }
 
 download-kubectl() {
-    KUBECTLVERSION=v1.21.1
+    KUBECTLVERSION=v1.27.1
     KUBECTLPATH=$(command -v kubectl || echo)
     UNAME=$(uname | awk '{print tolower($0)}')
     KUBECTLURL="https://storage.googleapis.com/kubernetes-release/release/$KUBECTLVERSION/bin/$UNAME/amd64/kubectl"
