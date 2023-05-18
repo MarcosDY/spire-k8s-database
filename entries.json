@@ -22,7 +22,7 @@
       {
          "parent_id": "spiffe://example.org/spire-agent-node",
          "spiffe_id": "spiffe://example.org/postgres-sidecar",
-         "ttl": 60,
+         "x509_svid_ttl": 60,
          "selectors": [
             {
                "type": "k8s",
@@ -38,7 +38,7 @@
          "parent_id": "spiffe://example.org/spire-agent-node",
          "spiffe_id": "spiffe://example.org/api",
          "dns_names": [ "symuser" ],
-         "ttl": 60,
+         "x509_svid_ttl": 60,
          "selectors": [
             {
                "type": "k8s",
@@ -53,7 +53,7 @@
       {
          "parent_id": "spiffe://example.org/spire-agent-node",
          "spiffe_id": "spiffe://example.org/api-proxy",
-         "ttl": 60,
+         "x509_svid_ttl": 60,
          "selectors": [
             {
                "type": "k8s",
@@ -68,7 +68,7 @@
       {
          "parent_id": "spiffe://example.org/spire-agent-node",
          "spiffe_id": "spiffe://example.org/client-proxy",
-         "ttl": 60,
+         "x509_svid_ttl": 60,
          "selectors": [
             {
                "type": "k8s",
