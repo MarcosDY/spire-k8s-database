@@ -51,7 +51,7 @@ metadata:
 data: 
   reloadCertificates.sh: |
     #!/bin/bash
-    psql -c 'SELECT pg_reload_conf();'
+    psql -h /tmp/ -c 'SELECT pg_reload_conf();'
 
 ---
 
